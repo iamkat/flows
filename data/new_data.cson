@@ -2,13 +2,24 @@
 
 # A node
 some_node:
-  person: 
-  story: '''
-    Livestock and their byproducts account for at least 32,000 million tons of carbon dioxide (CO2) per year, or 51% of all worldwide greenhouse gas emissions.
-    Goodland, R Anhang, J. “Livestock and Climate Change: What if the key actors in climate change were pigs, chickens and cows?”
-    WorldWatch, November/December 2009. Worldwatch Institute, Washington, DC, USA. Pp. 10–19.
-    http://www.worldwatch.org/node/6294
-    '''
-        
-some_person
-   
+  location: [123.123,123.123]
+  product: [some_product some_otherproduct]
+  material: some_material
+  story:
+    person: some_person
+    text:'''
+      Livestock and their byproducts account for at least 32,000 million tons of carbon dioxide (CO2) per year, or 51% of all worldwide greenhouse gas emissions.      Goodland, R Anhang, J. “Livestock and Climate Change: What if the key actors in climate change were pigs, chickens and cows?”
+      WorldWatch, November/December 2009. Worldwatch Institute, Washington, DC, USA. Pp. 10–19.
+      http://www.worldwatch.org/node/6294
+      '''
+
+some_person:
+  first_name: "Kat"   
+  last_name: "Austen"
+
+some_product:
+  name: "Guitar"
+  
+some_material:
+  name: "String"
+  
